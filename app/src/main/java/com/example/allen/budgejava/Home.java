@@ -12,7 +12,7 @@ public class Home extends AppCompatActivity {
     private String[] categories = {"Entertainment", "Groceries", "Transport"};
     PieChart pie;
 
-
+///testing beep boop
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
