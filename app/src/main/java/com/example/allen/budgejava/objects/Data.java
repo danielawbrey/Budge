@@ -1,4 +1,4 @@
-package com.example.allen.budgejava;
+package com.example.allen.budgejava.objects;
 
 import java.time.LocalDateTime;
 import java.util.Date;
