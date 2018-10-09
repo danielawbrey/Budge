@@ -6,16 +6,16 @@ import java.util.Date;
 public class Data {
 
     private LocalDateTime date;
-    private double amount;
+    private float amount;
     private String type;
 
-    Data() {
+    public Data() {
         this.date = null;
-        this.amount = 0.0;
+        this.amount = 0.0f;
         this.type = null;
     }
 
-    Data(LocalDateTime date, double amount, String type) {
+    public Data(LocalDateTime date, float amount, String type) {
         this.date = date;
         this.amount = amount;
         this.type = type;
@@ -25,7 +25,7 @@ public class Data {
         return date;
     }
 
-    public double getAmount() {
+    public float getAmount() {
         return amount;
     }
 
@@ -37,7 +37,7 @@ public class Data {
         this.date = date;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(float amount) {
         this.amount = amount;
     }
 
